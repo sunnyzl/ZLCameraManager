@@ -24,7 +24,6 @@
 		305B704D1C474AC300700E31 /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 305B70461C474AC300700E31 /* cancel@3x.png */; };
 		305B70581C474AD500700E31 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B704F1C474AD500700E31 /* UIImage+Crop.m */; };
 		305B70591C474AD500700E31 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B70511C474AD500700E31 /* UIImage+FixOrientation.m */; };
-		305B705A1C474AD500700E31 /* UIImage+OFGCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B70531C474AD500700E31 /* UIImage+OFGCrop.m */; };
 		305B705B1C474AD500700E31 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B70551C474AD500700E31 /* UIImage+Resize.m */; };
 		305B705C1C474AD500700E31 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B70571C474AD500700E31 /* ViewUtils.m */; };
 		305B705F1C474AEE00700E31 /* ZLCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B705E1C474AEE00700E31 /* ZLCameraManager.m */; };
@@ -59,8 +58,6 @@
 		305B704F1C474AD500700E31 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
 		305B70501C474AD500700E31 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		305B70511C474AD500700E31 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
-		305B70521C474AD500700E31 /* UIImage+OFGCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OFGCrop.h"; sourceTree = "<group>"; };
-		305B70531C474AD500700E31 /* UIImage+OFGCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OFGCrop.m"; sourceTree = "<group>"; };
 		305B70541C474AD500700E31 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
 		305B70551C474AD500700E31 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		305B70561C474AD500700E31 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
@@ -175,8 +172,6 @@
 				305B704F1C474AD500700E31 /* UIImage+Crop.m */,
 				305B70501C474AD500700E31 /* UIImage+FixOrientation.h */,
 				305B70511C474AD500700E31 /* UIImage+FixOrientation.m */,
-				305B70521C474AD500700E31 /* UIImage+OFGCrop.h */,
-				305B70531C474AD500700E31 /* UIImage+OFGCrop.m */,
 				305B70541C474AD500700E31 /* UIImage+Resize.h */,
 				305B70551C474AD500700E31 /* UIImage+Resize.m */,
 				305B70561C474AD500700E31 /* ViewUtils.h */,
@@ -265,7 +260,6 @@
 			files = (
 				305B705C1C474AD500700E31 /* ViewUtils.m in Sources */,
 				30AD72421C4CAE4C000AAA52 /* ZLCameraViewController.m in Sources */,
-				305B705A1C474AD500700E31 /* UIImage+OFGCrop.m in Sources */,
 				305B705B1C474AD500700E31 /* UIImage+Resize.m in Sources */,
 				305B702A1C4742A100700E31 /* ViewController.m in Sources */,
 				30C88FB81C4E1655008D9AD5 /* ImageViewController.m in Sources */,
