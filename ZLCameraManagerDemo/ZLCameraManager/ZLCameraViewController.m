@@ -10,6 +10,7 @@
 #import "ZLCameraManager.h"
 #import "ImageViewController.h"
 #import "VideoViewController.h"
+#import "UIImage+Resize.h"
 
 @interface ZLCameraViewController ()
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentControl;
@@ -109,12 +110,13 @@
         [self.cameraManager captureImage:^(ZLCameraManager *cameraManager, UIImage *image, NSDictionary *metadata, NSError *error) {
             if (!error) {
                 //  可在此对图片进行压缩
-                ImageViewController *imageVC = [[ImageViewController alloc] initWithImage:image];
+                UIImage *newImage = [image resizedImageToSize:CGSizeMake(480, 640)];
+                ImageViewController *imageVC = [[ImageViewController alloc] initWithImage:newImage];
                 [weakSelf presentViewController:imageVC animated:NO completion:nil];
             } else {
                 NSLog(@"error");
             }
-        }];
+        } realPhysicalPixel:NO];
     } else {
         if(!weakSelf.cameraManager.isRecording) {
             weakSelf.segmentControl.hidden = YES;
